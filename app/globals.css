@@ -25,3 +25,51 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.blog:hover .color-overlay{
+  background:rgba(74, 100, 114, 0.8);
+}
+.blog:hover .info{
+  bottom: -3em;
+  opacity: 1;
+}
+.blog, .color-overlay{
+   border-radius: 0.7em;
+}
+.color-overlay{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transition: 0.7s background;
+  background: rgba(74, 100, 114, 0.3);
+  z-index: 1;
+}
+
+.title-box{
+  text-align: center;
+  margin-top: 2em;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.info{
+  /* font-family: 'Droid Serif', serif;
+  font-size: 1.2em;
+  color: #ddd;
+  line-height: 1.1em;
+  padding: 0 2em; */
+/*  
+  position: relative;
+  bottom: -4em;
+  opacity: 0;
+  background: transparent; */
+  transition: opacity 0.3s, bottom 0.3s;
+  /* text-align: center;
+
+  position: relative;
+  z-index: 2; */
+}

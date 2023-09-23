@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.  React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality",
+        "url": "react",
+        "image": "/react.png",
+        "type": "Frontend",
+        "personal_experience": "I started studying React in 2019. This was first big Javascript library, that I got into. Since that time, I started regulary using React both in work and in my personal projets. At my currenty workplace we use this library in almost all of our projects, as main frontend library, as widget library in Drupal or together with Next JS. I can say with confidence, that this is my favourite frontend technology, and I am looking forward into it`s development in future."
+    },
+    {
+        "id": 2,
+        "name": "Next JS",
+        "description": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers when 'building a server-rendered website with Node.js'. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.",
+        "url": "next",
+        "image": "/next.webp",
+        "type": "Frontend",
+        "personal_experience": "Over the past year, my journey with Next.js has been nothing short of exhilarating. It all began when I decided to incorporate this remarkable framework into a crucial project – the LDZ project. From the moment I delved into Next.js, I was captivated by its versatility and efficiency. The seamless integration of server-side rendering, routing, and the React framework provided a powerful toolkit that enabled me to deliver an exceptional user experience for the LDZ project. As I reflect on my year-long experience with Next.js, I find myself eagerly looking forward to utilizing it in future endeavors. Its continuous evolution and commitment to staying at the forefront of web development trends have convinced me that Next.js will remain a key player in my toolkit. Currently, I am actively immersing myself in the latest version, Next.js 13, keeping pace with its enhancements and innovations. The journey of learning and adapting never ceases, and that's precisely what keeps me engaged and excited about the possibilities Next.js brings to the table. It's worth noting that even this very site you're on right now is built using Next.js. It's a testament to the trust and confidence I have in this technology. As I continue to explore and push the boundaries of what Next.js can achieve, I'm excited about the potential it holds for shaping the future of web development."
+    },
+    {
+        "id": 3,
+        "name": "Javascript",
+        "description": "Javscript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications.",
+        "url": "js",
+        "image": "/js.png",
+        "type": "Frontend",
+        "personal_experience": "I've been working with JavaScript since 2018, and it has been an integral part of my professional journey. In all of my previous workplaces, JavaScript played a central role in the projects I undertook. My familiarity with the language extends to the latest ECMAScript updates, ensuring that I stay current with the ever-evolving landscape of web development. Remarkably, JavaScript holds a special place for me as it was my first programming language, laying the foundation for my passion and expertise in software development. "
+    },
+    {
+        "id": 4,
+        "name": "Vue JS",
+        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. Vue.js allows for extending HTML with HTML attributes called directives. The directives offer functionality to HTML applications, and come as either built-in or user defined directives",
+        "url": "vue",
+        "image": "/vue.png",
+        "type": "Frontend",
+        "personal_experience": "In 2020 and 2021, I regularly utilized Vue.js in my web development projects, finding it to be a powerful and efficient framework. It served as the cornerstone of my toolkit in my previous workplace, where we harnessed its capabilities to deliver exceptional user experiences. While Vue.js version 3 introduced several improvements, I must admit that I lean towards version 2 due to my personal preference for its syntax, which I find more intuitive. Although my recent experiences have primarily revolved around React, I am confident in my ability to quickly catch up with the latest updates in Vue.js if the need arises for a new job opportunity. Vue.js remains a valuable asset in my skill set, ready to be leveraged when the right project calls for its strengths."
+    },
+    {
+        "id": 5,
+        "name": "Scss/Sass",
+        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+        "url": "scss",
+        "image": "/scss.webp",
+        "type": "Frontend",
+        "personal_experience": "I've been using SCSS/Sass technology since 2020, and it's been quite a journey. What initially drew me to it were its features, particularly nesting and inheritance. These capabilities made my stylesheets more organized and easier to maintain. In both my previous and current job roles, SCSS/Sass has been a valuable asset in our frontend development process. It allowed us to write clean, modular, and efficient CSS code, enhancing collaboration and productivity among the team. However, I must admit that my enthusiasm for SCSS/Sass has somewhat waned recently. While it's still a valuable tool in my toolkit, I've found myself gravitating more towards Tailwind CSS. Tailwind's utility-first approach and rapid development capabilities have started to win me over, and I've been using it more frequently in my recent projects."
+    },
+    {
+        "id": 6,
+        "name": "PHP",
+        "description": "PHP is a general-purpose scripting language geared towards web development. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response.",
+        "url": "php",
+        "image": "/php.png",
+        "type": "Backend",
+        "personal_experience": "My journey with PHP began in 2019, and it has been an incredibly rewarding experience. One of the most significant advantages I've gained from using PHP is a deep understanding of object-oriented programming (OOP) principles. PHP allowed me to apply these principles effectively in web development, leading to cleaner and more maintainable code structures. PHP's syntax has always resonated with me. Its readability and flexibility make it an excellent choice for web development tasks. Additionally, the vast and active community that surrounds PHP has been invaluable. The wealth of online resources, tutorials, and open-source projects have provided continuous support and learning opportunities. Throughout my career, PHP has been a constant presence. I've used it extensively in all my job roles, both as a standalone language and in conjunction with popular frameworks like Laravel, Zend, and Drupal. These frameworks have streamlined development processes, allowing me to create robust and feature-rich web applications efficiently. PHP's versatility and compatibility with these frameworks have made it an integral part of my professional journey."
+    },
+    {
+        "id": 7,
+        "name": "Laravel",
+        "description": "Laravel is a free and open-source PHP web framework. It is intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.",
+        "url": "laravel",
+        "image": "/laravel.jpg",
+        "type": "Backend",
+        "personal_experience": "I've been immersed in the world of Laravel since 2020, and it's been an exciting journey. What initially drew me to this PHP framework was its elegant syntax and an array of impressive features. Laravel's adherence to the Model-View-Controller (MVC) architecture simplifies the organization of code, making it more manageable and maintainable. One of the standout qualities of Laravel is its well-thought-out query structures, which make database interactions a breeze. The framework's simplicity and ease of use have saved me countless hours during development. My enthusiasm for Laravel is evident in the numerous projects I've undertaken. You can find several of them on my GitHub, showcasing the versatility and power of this framework. Additionally, my current workplace relies heavily on Laravel for our web development projects, further solidifying its importance in my professional toolkit. Laravel continues to be a go-to choice for building robust and scalable web applications."
+    },
+    {
+        "id": 8,
+        "name": "Drupal",
+        "description": "Drupal is a free and open-source web content management system (CMS) written in PHP. Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide and 1.2% of the top 10 million websites—ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal also describes itself as a Web application framework. When compared with notable frameworks, Drupal meets most of the generally accepted feature requirements for such web frameworks. Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration.",
+        "url": "drupal",
+        "image": "/drupal.png",
+        "type": "Backend",
+        "personal_experience": "I delved into Drupal in 2021, primarily because it was a requirement for my current job. However, my journey with this content management system has been quite pleasant. One of the key reasons I've grown to appreciate Drupal is its ability to strike a balance between simplifying tasks and offering extensive customization options through custom code. Drupal's out-of-the-box capabilities make it incredibly user-friendly, streamlining tasks like content management and website administration. Yet, it doesn't stop there; it also empowers developers like me to dig deeper and modify existing logic to meet specific project requirements. One exciting development in my Drupal experience has been our shift towards using it as a Headless CMS. This transition has opened up new possibilities and enhanced the flexibility of Drupal as a content management solution. Overall, my journey with Drupal has been a rewarding one, offering both ease of use and the potential for deep customization."
+    },
+    {
+        "id": 9,
+        "name": "Redux",
+        "description": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture. Redux is a small library with a simple, limited API designed to be a predictable container for application state. It operates in a similar fashion to a reducing function, a functional programming concept.",
+        "url": "redux",
+        "image": "/redux.png",
+        "type": "Frontend",
+        "personal_experience": "Redux played a prominent role in my development journey during 2020 and 2021. It was a tool I regularly used and even delved into extensively for my graduate work. At that time, Redux was often praised for its predictable state management and integration with React, making it a popular choice in the frontend development landscape. However, my relationship with Redux began to change over time. While it offers a structured approach to state management, I gradually found myself growing less fond of the FLUX architecture and the concept of a global store. I started exploring alternative state management solutions that better aligned with my evolving preferences. As a result, my usage of Redux diminished, and I began to explore different state management approaches that better suited my projects and development style. While Redux has its merits, my journey in programming has led me down different paths in pursuit of more fitting solutions for my frontend needs."
+    },
+    {
+        "id": 10,
+        "name": "Tailwind",
+        "description": "Tailwind is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of 'utility' CSS classes that can be used to style each element by mixing and matching.",
+        "url": "tailwind",
+        "image": "/tailwind.png",
+        "type": "Frontend",
+        "personal_experience": "I embarked on my Tailwind CSS journey approximately a year ago, and it has since become my favorite styling solution. What initially captivated me about Tailwind was its simplicity and the revolutionary idea that I no longer needed to agonize over writing custom class names. Tailwind CSS's utility-first approach and comprehensive set of pre-defined classes make styling a breeze. It simplifies the development process by providing a straightforward and consistent way to apply styles to elements. This approach significantly speeds up the frontend workflow, allowing me to focus more on functionality and less on the intricacies of styling. In summary, Tailwind CSS has transformed the way I approach styling in web development. Its simplicity and utility-first philosophy have made it an indispensable tool in my toolkit, streamlining the styling process and boosting my productivity."
+    },
+    {
+        "id": 11,
+        "name": "Typescript",
+        "description": "TypeScript is a programming language, that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript, all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for safety reasons.",
+        "url": "typescript",
+        "image": "/ts.png",
+        "type": "Frontend",
+        "personal_experience": "My consistent use of TypeScript since 2022 has fundamentally transformed the way I approach JavaScript development. One of the most appealing aspects of TypeScript is its syntax, which I find to be clean, expressive, and easy to understand. However, what truly sets TypeScript apart is its robust type system, which adds a layer of safety and predictability to my code. The typization that TypeScript provides has been a game-changer in terms of code quality and maintainability. It has helped catch errors at compile time, reducing runtime bugs and enhancing the overall stability of my applications. While TypeScript has numerous benefits, I must admit that integrating it with third-party libraries can sometimes be challenging. Additionally, occasional warning messages can be a bit vexing. However, these minor inconveniences have not dampened my enthusiasm for TypeScript. I remain eager to leverage its power in future projects, as its advantages far outweigh these minor issues. TypeScript continues to be a valuable asset in my development toolkit, and I look forward to exploring its potential further."
+    }
+]

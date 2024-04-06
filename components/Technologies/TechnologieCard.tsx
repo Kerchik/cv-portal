@@ -3,6 +3,8 @@
 import Link from "next/link"
 import { TTecnology } from "./TechnologiesList"
 import Image from "next/image"
+import { useContext } from "react"
+import { LangContext } from "../Providers/LangProvider"
 
 type TTechnologieCardProps = {
   tecnology: TTecnology
@@ -15,6 +17,8 @@ const TechnologieCard = ({
   showLink = false,
   showDescription = false,
 }: TTechnologieCardProps) => {
+  const lang = useContext(LangContext)
+
   const truncate = (string: string, limit: number): string => {
     if (string.length <= limit) return string
 
@@ -41,7 +45,7 @@ const TechnologieCard = ({
       </div>
       {showDescription && (
         <div className="info text-base text-white relative bottom-3 opacity-0 bg-transparent text-center z-[2] px-5">
-          <span>{truncate(tecnology.description, 300)}</span>
+          <span>{truncate(tecnology.description[lang] ?? "", 300)}</span>
         </div>
       )}
       <div className="absolute inset-0 bg-black opacity-50 z-[1]"></div>
@@ -53,7 +57,7 @@ const TechnologieCard = ({
       />
       {showLink && (
         <Link
-          href={`/tech/${tecnology.url}`}
+          href={`/${lang}/tech/${tecnology.url}`}
           className="absolute inset-0 z-[3]"
         ></Link>
       )}

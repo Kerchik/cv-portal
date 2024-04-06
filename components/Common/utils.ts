@@ -1,0 +1,1 @@
+export const LOCALES = ['lv', 'ru', 'en']

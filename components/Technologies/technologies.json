@@ -2,7 +2,11 @@
     {
         "id": 1,
         "name": "React",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.  React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality",
+        "description": {
+            "lv": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.  React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality",
+            "en": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.  React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality",
+            "ru": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.  React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js. Because React is only concerned with the user interface and rendering components to the DOM, React applications often rely on libraries for routing and other client-side functionality"
+        },
         "url": "react",
         "image": "/react.png",
         "type": "Frontend",
@@ -11,7 +15,11 @@
     {
         "id": 2,
         "name": "Next JS",
-        "description": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers when 'building a server-rendered website with Node.js'. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.",
+        "description": {
+            "lv": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers when 'building a server-rendered website with Node.js'. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.",
+            "en": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers when 'building a server-rendered website with Node.js'. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side.",
+            "ru": "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation. React documentation mentions Next.js among 'Recommended Toolchains' advising it to developers when 'building a server-rendered website with Node.js'. Where traditional React apps can only render their content in the client-side browser, Next.js extends this functionality to include applications rendered on the server-side."
+        },
         "url": "next",
         "image": "/next.webp",
         "type": "Frontend",
@@ -20,7 +28,11 @@
     {
         "id": 3,
         "name": "Javascript",
-        "description": "Javscript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications.",
+        "description": {
+            "lv": "Javscript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications.",
+            "en": "Javscript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications.",
+            "ru": "Javscript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications."
+        },
         "url": "js",
         "image": "/js.png",
         "type": "Frontend",
@@ -29,7 +41,11 @@
     {
         "id": 4,
         "name": "Vue JS",
-        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. Vue.js allows for extending HTML with HTML attributes called directives. The directives offer functionality to HTML applications, and come as either built-in or user defined directives",
+        "description": {
+            "lv": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. Vue.js allows for extending HTML with HTML attributes called directives. The directives offer functionality to HTML applications, and come as either built-in or user defined directives",
+            "en": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. Vue.js allows for extending HTML with HTML attributes called directives. The directives offer functionality to HTML applications, and come as either built-in or user defined directives",
+            "ru": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. Vue.js features an incrementally adaptable architecture that focuses on declarative rendering and component composition. Vue.js allows for extending HTML with HTML attributes called directives. The directives offer functionality to HTML applications, and come as either built-in or user defined directives"
+        },
         "url": "vue",
         "image": "/vue.png",
         "type": "Frontend",
@@ -38,7 +54,11 @@
     {
         "id": 5,
         "name": "Scss/Sass",
-        "description": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+        "description": {
+            "lv": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+            "en": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+            "ru": "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml. It uses indentation to separate code blocks and newline characters to separate rules. The newer syntax, SCSS (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively."
+        },
         "url": "scss",
         "image": "/scss.webp",
         "type": "Frontend",
@@ -47,7 +67,11 @@
     {
         "id": 6,
         "name": "PHP",
-        "description": "PHP is a general-purpose scripting language geared towards web development. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response.",
+        "description": {
+            "lv": "PHP is a general-purpose scripting language geared towards web development. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response.",
+            "en": "PHP is a general-purpose scripting language geared towards web development. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response.",
+            "ru": "PHP is a general-purpose scripting language geared towards web development. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code—which may be any type of data, such as generated HTML or binary image data—would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist that can be employed to orchestrate or facilitate the generation of that response."
+        },
         "url": "php",
         "image": "/php.png",
         "type": "Backend",
@@ -56,7 +80,11 @@
     {
         "id": 7,
         "name": "Laravel",
-        "description": "Laravel is a free and open-source PHP web framework. It is intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.",
+        "description": {
+            "lv": "Laravel is a free and open-source PHP web framework. It is intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.",
+            "en": "Laravel is a free and open-source PHP web framework. It is intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.",
+            "ru": "Laravel is a free and open-source PHP web framework. It is intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar."
+        },
         "url": "laravel",
         "image": "/laravel.jpg",
         "type": "Backend",
@@ -65,7 +93,11 @@
     {
         "id": 8,
         "name": "Drupal",
-        "description": "Drupal is a free and open-source web content management system (CMS) written in PHP. Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide and 1.2% of the top 10 million websites—ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal also describes itself as a Web application framework. When compared with notable frameworks, Drupal meets most of the generally accepted feature requirements for such web frameworks. Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration.",
+        "description": {
+            "lv": "Drupal is a free and open-source web content management system (CMS) written in PHP. Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide and 1.2% of the top 10 million websites—ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal also describes itself as a Web application framework. When compared with notable frameworks, Drupal meets most of the generally accepted feature requirements for such web frameworks. Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration.",
+            "en": "Drupal is a free and open-source web content management system (CMS) written in PHP. Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide and 1.2% of the top 10 million websites—ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal also describes itself as a Web application framework. When compared with notable frameworks, Drupal meets most of the generally accepted feature requirements for such web frameworks. Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration.",
+            "ru": "Drupal is a free and open-source web content management system (CMS) written in PHP. Drupal provides an open-source back-end framework for at least 14% of the top 10,000 websites worldwide and 1.2% of the top 10 million websites—ranging from personal blogs to corporate, political, and government sites. Systems also use Drupal for knowledge management and for business collaboration. Drupal also describes itself as a Web application framework. When compared with notable frameworks, Drupal meets most of the generally accepted feature requirements for such web frameworks. Drupal runs on any computing platform that supports both a web server capable of running PHP and a database to store content and configuration."
+        },
         "url": "drupal",
         "image": "/drupal.png",
         "type": "Backend",
@@ -74,7 +106,11 @@
     {
         "id": 9,
         "name": "Redux",
-        "description": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture. Redux is a small library with a simple, limited API designed to be a predictable container for application state. It operates in a similar fashion to a reducing function, a functional programming concept.",
+        "description": {
+            "lv": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture. Redux is a small library with a simple, limited API designed to be a predictable container for application state. It operates in a similar fashion to a reducing function, a functional programming concept.",
+            "en": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture. Redux is a small library with a simple, limited API designed to be a predictable container for application state. It operates in a similar fashion to a reducing function, a functional programming concept.",
+            "ru": "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture. Redux is a small library with a simple, limited API designed to be a predictable container for application state. It operates in a similar fashion to a reducing function, a functional programming concept."
+        },
         "url": "redux",
         "image": "/redux.png",
         "type": "Frontend",
@@ -83,7 +119,11 @@
     {
         "id": 10,
         "name": "Tailwind",
-        "description": "Tailwind is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of 'utility' CSS classes that can be used to style each element by mixing and matching.",
+        "description": {
+            "lv": "Tailwind is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of 'utility' CSS classes that can be used to style each element by mixing and matching.",
+            "en": "Tailwind is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of 'utility' CSS classes that can be used to style each element by mixing and matching.",
+            "ru": "Tailwind is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables. Instead, it creates a list of 'utility' CSS classes that can be used to style each element by mixing and matching."
+        },
         "url": "tailwind",
         "image": "/tailwind.png",
         "type": "Frontend",
@@ -92,7 +132,11 @@
     {
         "id": 11,
         "name": "Typescript",
-        "description": "TypeScript is a programming language, that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript, all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for safety reasons.",
+        "description": {
+            "lv": "TypeScript is a programming language, that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript, all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for safety reasons.",
+            "en": "TypeScript is a programming language, that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript, all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for safety reasons.",
+            "ru": "TypeScript is a programming language, that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript. Because TypeScript is a superset of JavaScript, all JavaScript programs are syntactically valid TypeScript, but they can fail to type-check for safety reasons."
+        },
         "url": "typescript",
         "image": "/ts.png",
         "type": "Frontend",

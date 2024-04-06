@@ -1,7 +1,9 @@
 "use client"
 
-import { Dispatch, SetStateAction, useMemo, useState } from "react"
+import { Dispatch, SetStateAction, useContext, useMemo, useState } from "react"
 import { TTecnology } from "./TechnologiesList"
+import { LangContext } from "../Providers/LangProvider"
+import { t } from "../Translations/Translations"
 
 type TTechnologiesTabsProps = {
   setTechnologiesCallback: Dispatch<SetStateAction<TTecnology[]>>
@@ -12,12 +14,14 @@ const TechnologiesTabs = ({
   initialTechnologies,
   setTechnologiesCallback,
 }: TTechnologiesTabsProps) => {
+  const lang = useContext(LangContext)
+
   const [selectedTab, setSelectedTab] = useState<number>(0)
 
   const tabsList = [
     {
       id: 0,
-      label: "All",
+      label: t("all", lang),
     },
     {
       id: 1,

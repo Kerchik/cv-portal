@@ -1,11 +1,20 @@
+"use client"
+
 import Link from "next/link"
 import technologiesList from "./technologies.json"
 import TechnologieCard from "./TechnologieCard"
+import { useContext } from "react"
+import LangProvider, { LangContext } from "../Providers/LangProvider"
+import { t } from "../Translations/Translations"
 
 export type TTecnology = {
   id: number
   name: string
-  description: string
+  description: {
+    lv?: string
+    en?: string
+    ru?: string
+  }
   url: string
   image: string
   type: "Frontend" | "Backend"
@@ -18,6 +27,8 @@ type TTechnologiesListProps = {
 }
 
 const TechnologiesList = ({ technologies, limit }: TTechnologiesListProps) => {
+  const lang = useContext(LangContext)
+
   const limitedTechnologies: TTecnology[] = limit
     ? technologies.slice(0, limit)
     : technologies
@@ -37,10 +48,10 @@ const TechnologiesList = ({ technologies, limit }: TTechnologiesListProps) => {
       {limit && (
         <div className="flex justify-center mt-5">
           <Link
-            href={"/technologies"}
+            href={`/${lang}/technologies`}
             className="border border-sky-500 px-4 py-2 rounded-md bg-sky-500 text-white hover:bg-white hover:text-sky-500 duration-200 uppercase"
           >
-            Show all
+            {t("showAll", lang)}
           </Link>
         </div>
       )}

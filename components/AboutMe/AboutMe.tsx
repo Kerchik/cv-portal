@@ -14,11 +14,11 @@ const AboutMe = () => {
 
   return (
     <div className="container mx-auto px-[20px] sm:px-0 mb-2">
-      <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center">
+      <div className="flex gap-8 flex-wrap lg:flex-nowrap justify-center lg:justify-start">
         <Image
           src={"/me.png"}
           alt="Me"
-          className="object-cover rounded-xl"
+          className="object-cover rounded-xl flex-none"
           width={300}
           height={450}
         />

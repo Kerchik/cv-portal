@@ -14,8 +14,6 @@ export const generateStaticParams = async () => {
   }))
 }
 
-export const dynamicParams = false
-
 type TTechnologiesPageProps = {
   params: {
     lang: "lv" | "en" | "ru"

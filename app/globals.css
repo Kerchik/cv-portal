@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: calc(100vh);
 }
 
 .blog:hover .color-overlay{
@@ -54,22 +55,19 @@ body {
   z-index: 2;
 }
 
-
-
 .info{
-  /* font-family: 'Droid Serif', serif;
-  font-size: 1.2em;
-  color: #ddd;
-  line-height: 1.1em;
-  padding: 0 2em; */
-/*  
-  position: relative;
-  bottom: -4em;
-  opacity: 0;
-  background: transparent; */
   transition: opacity 0.3s, bottom 0.3s;
-  /* text-align: center;
+}
 
-  position: relative;
-  z-index: 2; */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in { animation: fadeIn 2s; }
+.fade-in-1 {
+  opacity: 0;
+  animation: fadeIn 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }

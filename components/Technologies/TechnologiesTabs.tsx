@@ -1,6 +1,6 @@
 "use client"
 
-import { Dispatch, SetStateAction, useContext, useMemo, useState } from "react"
+import { Dispatch, SetStateAction, useContext, useState } from "react"
 import { TTecnology } from "./TechnologiesList"
 import { LangContext } from "../Providers/LangProvider"
 import { t } from "../Translations/Translations"
@@ -35,29 +35,27 @@ const TechnologiesTabs = ({
     },
   ]
 
-  const tabs = useMemo(() => {
-    return (
-      <>
-        {tabsList.map((tab, index) => (
-          <button
-            key={tab.id}
-            className={`${
-              selectedTab === tab.id
-                ? "border border-sky-500 text-white bg-sky-500"
-                : "border border-sky-500 text-sky-500 bg-white"
-            } ${index === 0 ? "rounded-s-md" : ""}
+  const tabs = (
+    <>
+      {tabsList.map((tab, index) => (
+        <button
+          key={tab.id}
+          className={`${
+            selectedTab === tab.id
+              ? "border border-sky-500 text-white bg-sky-500"
+              : "border border-sky-500 text-sky-500 bg-white"
+          } ${index === 0 ? "rounded-s-md" : ""}
             ${index === tabsList.length - 1 ? "rounded-e-md" : ""}
              px-6 text-lg py-2`}
-            onClick={() => {
-              handleTabChange(tab.id)
-            }}
-          >
-            {tab.label}
-          </button>
-        ))}
-      </>
-    )
-  }, [selectedTab])
+          onClick={() => {
+            handleTabChange(tab.id)
+          }}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </>
+  )
 
   const handleTabChange = (selectedTab: number) => {
     setSelectedTab(selectedTab)

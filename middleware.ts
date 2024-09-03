@@ -1,9 +1,8 @@
-import { NextResponse } from "next/server"
-
+import { NextRequest, NextResponse } from "next/server"
  
 const locales = ['lv', 'ru', 'en']
  
-export function middleware(request: any) {
+export function middleware(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl
   const pathnameHasLocale = locales.some(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`

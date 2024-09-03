@@ -2,7 +2,6 @@
 
 import useLocaleFromPathname from "@/hooks/useLocaleFromPathname"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { t } from "../Translations/Translations"
 import LanguageSwitcher from "./LanguageSwitcher"
 
@@ -11,9 +10,12 @@ const Header = () => {
 
   return (
     <header className="bg-sky-500 py-3">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-[20px] sm:px-0">
         <nav className="flex justify-between">
-          <ul className="flex">
+          <ul className="flex gap-4">
+            <li className="text-white">
+              <Link href={`/${lang}`}>{t("toMainPage", lang)}</Link>
+            </li>
             <li className="text-white">
               <Link href={`/${lang}/technologies`}>
                 {t("technologies", lang)}

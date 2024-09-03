@@ -34,7 +34,7 @@ const LanguageSwitcher = ({ currentLanguage }: TLanguageSwitcher) => {
         {currentLanguage.toUpperCase()}
       </button>
       {isSwitcherOpen && (
-        <div className="bg-white px-5 py-2 absolute rounded-md">
+        <div className="bg-white px-5 py-2 absolute rounded-md right-0 xl:right-auto">
           <ul className="flex flex-col gap-2">
             {locales
               .filter((locale) => locale !== currentLanguage)

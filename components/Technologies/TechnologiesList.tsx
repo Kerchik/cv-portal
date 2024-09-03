@@ -1,10 +1,9 @@
 "use client"
 
 import Link from "next/link"
-import technologiesList from "./technologies.json"
 import TechnologieCard from "./TechnologieCard"
 import { useContext } from "react"
-import LangProvider, { LangContext } from "../Providers/LangProvider"
+import { LangContext } from "../Providers/LangProvider"
 import { t } from "../Translations/Translations"
 
 export type TTecnology = {
@@ -18,7 +17,11 @@ export type TTecnology = {
   url: string
   image: string
   type: "Frontend" | "Backend"
-  personal_experience?: string
+  personal_experience: {
+    lv?: string
+    en?: string
+    ru?: string
+  }
 }
 
 type TTechnologiesListProps = {

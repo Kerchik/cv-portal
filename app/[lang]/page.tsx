@@ -9,6 +9,8 @@ import { educationList } from "@/components/ExperienceTimeline/educationList"
 import { t } from "@/components/Translations/Translations"
 import { getExperienceitemsList } from "@/components/Common/utils"
 import AboutMe from "@/components/AboutMe/AboutMe"
+import { Metadata } from "next"
+import { TMetadata } from "@/types/metadata"
 
 export const generateStaticParams = async () => {
   return ["lv", "en", "ru"].map((lang) => ({
@@ -19,6 +21,30 @@ export const generateStaticParams = async () => {
 type THomeProps = {
   params: {
     lang: "lv" | "en" | "ru"
+  }
+}
+
+export async function generateMetadata({
+  params,
+}: TMetadata): Promise<Metadata> {
+  const { lang } = params
+
+  const metadata = {
+    title: {
+      lv: "CV portāls",
+      en: "CV portal",
+      ru: "CV портал",
+    },
+    description: {
+      lv: "CV portāls, kas satur informāciju par mani",
+      en: "CV portal, that contains information about me",
+      ru: "CV портал, который содержит информацию обо мне",
+    },
+  }
+
+  return {
+    title: metadata.title[lang],
+    description: metadata.description[lang],
   }
 }
 

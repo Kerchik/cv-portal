@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header"
-import "./globals.css"
+import "../globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 
@@ -12,11 +12,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode
+  params: { lang: "lv" | "ru" | "en" }
 }) {
   return (
-    <html lang="en">
+    <html lang={params.lang}>
       <body className={inter.className}>
         <Header />
         {children}

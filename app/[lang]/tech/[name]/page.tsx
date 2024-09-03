@@ -15,7 +15,6 @@ type TTechPageProps = {
 
 type TMetadata = {
   params: TTechPageProps["params"]
-  searchParams: { [key: string]: string | string[] | undefined }
 }
 
 export const generateStaticParams = async () => {
@@ -32,10 +31,9 @@ export const generateStaticParams = async () => {
 
 export const dynamicParams = false
 
-export async function generateMetadata(
-  { params, searchParams }: TMetadata,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: TMetadata): Promise<Metadata> {
   const tech = tecnologiesList.find((item) => item.url === params.name)
   const { lang } = params
 

@@ -17,7 +17,13 @@ const GoBackButton = ({ text }: TGoBackButtonProps) => {
 
   return (
     <button type="button" className="flex gap-2" onClick={() => router.back()}>
-      <Image src={iconArrow.src} alt="Back Icon" width={25} height={25} />
+      <Image
+        src={iconArrow.src}
+        alt="Back Icon"
+        width={25}
+        height={25}
+        priority={true}
+      />
       {text || t("toPreviousPage", lang)}
     </button>
   )

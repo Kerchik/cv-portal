@@ -20,4 +20,3 @@ npm run start
 ## Demo:
 
 [Link](https://my-cv-portal-next.netlify.app/)
-P

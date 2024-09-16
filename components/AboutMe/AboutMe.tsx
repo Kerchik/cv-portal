@@ -21,6 +21,7 @@ const AboutMe = () => {
           className="object-cover rounded-xl flex-none"
           width={300}
           height={450}
+          priority={true}
         />
         <div className="flex flex-col items-center pt-4 gap-2">
           <h1 className="font-bold text-4xl fade-in">{t("hello", lang)}</h1>

@@ -19,6 +19,7 @@ const ExperienceTimelineItem = ({
           width={50}
           height={50}
           className="w-[35px] sm:w-[50px]"
+          priority={true}
         />
       </div>
       <div className="flex flex-col gap-1">

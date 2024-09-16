@@ -54,6 +54,7 @@ const TechnologieCard = ({
         alt={tecnology.name}
         className="object-cover"
         fill={true}
+        priority={true}
       />
       {showLink && (
         <Link

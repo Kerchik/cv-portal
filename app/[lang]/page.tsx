@@ -24,6 +24,8 @@ type THomeProps = {
   }
 }
 
+export const dynamicParams = false
+
 export async function generateMetadata({
   params,
 }: TMetadata): Promise<Metadata> {

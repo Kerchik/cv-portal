@@ -9,6 +9,8 @@ export const generateStaticParams = async () => {
   }))
 }
 
+export const dynamicParams = false
+
 export async function generateMetadata({
   params,
 }: TMetadata): Promise<Metadata> {

@@ -30,4 +30,18 @@ export const jobsList: TExperienceTimelineItemWithLocales[] = [
       ru: "Октябрь 2021 — Июнь 2024",
     },
   },
+  {
+    id: 3,
+    icon: iconJob,
+    title: {
+      lv: "Vecākais Frontend izstrādātājs Spinwise",
+      en: "Senior Frontend Developer at Spinwise",
+      ru: "Старший Frontend разработчик в Spinwise",
+    },
+    years: {
+      lv: "Septembris 2024 — ",
+      en: "September 2024 — ",
+      ru: "Сентябрь 2024 — ",
+    },
+  },
 ]
